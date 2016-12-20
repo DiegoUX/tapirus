@@ -12,8 +12,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,700,700i" rel="stylesheet">
         <link href="assets/stylesheets/styles.css" rel="stylesheet" type="text/css" />
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/smooth-scroll.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -21,11 +23,101 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container">
-            <div class="row">
-                <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+            <nav class="navbar navbar-fixed-top navbar-default">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img src="img/logo.svg" alt="Tapirus Logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="mobile-nav">
+                    <ul class="menu navbar-right">
+                      <li role="presentation" class="active"><a href="#" data-scroll>Home</a></li>
+                      <li role="presentation"><a href="#aboutUs" data-scroll>Nosotros</a></li>
+                      <li role="presentation"><a href="#services" data-scroll>Servicios</a></li>
+                      <li role="presentation"><a href="#">Areas de interes</a></li>
+                      <li role="presentation"><a href="#">Trabajos</a></li>
+                      <li role="presentation"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+        </header>
+        <section class="hero">
+            
+        </section>
+        <section class="aboutUs" id="aboutUs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1>NUESTRO PROPÓSITO</h1>
+                        <h2>Creemos que en la colaboración con nuestros clientes se potencian nuestros ideales.</h2>
+                        <p>Somos un estudio de comunicación visual especializado en identidad, diseño gráfico y web para propósitos ambientales y sociales, sus fundadores cuentan con  más de 10 años experiencia.</p>
+                        <p>En los últimos años se profundizó nuestro compromiso al adoptar un estilo de vida diferente, vivir lejos de la ciudad y cerca de la naturaleza le dió aún más sentido a este proyecto, así decidimos fundar Tapirus.</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h2><span>El trabajo colaborativo es nuestra naturaleza</span> y estas son nuestras habilidades</h2>
+                    </div>
+                </div>
+                <div class="row row-eq-height">
+                    <div class="col-md-4 ">
+                        <div class="service-wrap equalCol">
+                            <h2>Identidad Visual /Marcas</h2>
+                            <h3>Creamos logos y damos estilo a las comunicaciones de manera que expresen genuinamente el propósito de la organización o proyecto.</h3>
+                            <hr>
+                            <ul>
+                                <li>Diseño de logos</li>
+                                <li>Desarrollo de un estilo único</li>
+                                <li>Piezas de comunicación y formatos para cada necesidad</li>
+                                <li>Manual de usos para marcas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="service-wrap equalCol">
+                            <h2>Diseño y Desarrollo Web</h2>
+                            <h3>Creamos sitios que llegan a tu público y se adaptan a las tecnologías cambiantes.</h3>
+                            <hr>
+                            <ul>
+                                <li>Diseño presonalizado</li>
+                                <li>Procuramos una buena experiencia de navegación para los usuarios</li>
+                                <li>Diseños responsive que se adaptan a todos los dispositivos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="service-wrap equalCol">
+                            <h2>Diseño Editorial y de Información</h2>
+                            <h3>Tus acciones y contenidos expresados con claridad.</h3>
+                            <hr>
+                            <ul>
+                                <li>Infografías</li>
+                                <li>Cartelería de interior y exterior</li>
+                                <li>Folletos y calendarios</li>
+                                <li>Libros e informes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            
+        </footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

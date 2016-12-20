@@ -8788,3 +8788,161 @@ button.close {
     display: none !important;
   }
 }
+/* line 11, ../sass/_variables.scss */
+h1 {
+  font-size: 3.4rem;
+}
+
+/* line 15, ../sass/_variables.scss */
+h2 {
+  font-size: 2.4rem;
+}
+
+/* line 1, ../sass/_home.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 5, ../sass/_home.scss */
+body {
+  background: #FFCC00;
+  height: 3000px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  color: #4C4C4C;
+}
+
+/* line 13, ../sass/_home.scss */
+header.minify nav {
+  background: rgba(76, 76, 76, 0.75);
+}
+/* line 16, ../sass/_home.scss */
+header.minify nav .navbar-header .navbar-brand {
+  width: 104px;
+}
+
+/* line 24, ../sass/_home.scss */
+header .navbar-default {
+  background: transparent;
+  border: none;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+/* line 33, ../sass/_home.scss */
+header .navbar {
+  padding: 10px 0;
+}
+/* line 37, ../sass/_home.scss */
+header .navbar .navbar-header .navbar-brand {
+  position: absolute;
+  top: 0;
+  background: #FFCC00;
+  height: auto;
+  width: 160px;
+  margin-left: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 50, ../sass/_home.scss */
+header .navbar .navbar-header .navbar-brand img {
+  padding-top: 15px;
+}
+/* line 55, ../sass/_home.scss */
+header .navbar .menu {
+  margin-bottom: 0;
+  padding: 15px 0;
+}
+/* line 59, ../sass/_home.scss */
+header .navbar .menu li {
+  display: inline-block;
+}
+/* line 61, ../sass/_home.scss */
+header .navbar .menu li a {
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+/* line 71, ../sass/_home.scss */
+.hero {
+  background: url("http://placehold.it/2000x500/867D7F/999999") no-repeat scroll center center;
+  height: 500px;
+  background-size: cover;
+}
+
+/* line 78, ../sass/_home.scss */
+.aboutUs {
+  text-align: center;
+  padding: 60px 0;
+}
+/* line 82, ../sass/_home.scss */
+.aboutUs h1 {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 35px;
+  margin-top: 0;
+}
+/* line 89, ../sass/_home.scss */
+.aboutUs h2 {
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+/* line 94, ../sass/_home.scss */
+.aboutUs p {
+  font-size: 1.125rem;
+}
+
+/* line 100, ../sass/_home.scss */
+.services {
+  background: #B7B7B7;
+  padding: 60px 0;
+}
+/* line 104, ../sass/_home.scss */
+.services h2 {
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+/* line 109, ../sass/_home.scss */
+.services h2 span {
+  display: block;
+  font-weight: 500;
+}
+/* line 115, ../sass/_home.scss */
+.services .service-wrap {
+  background: #ffffff;
+  padding: 40px 20px;
+}
+/* line 119, ../sass/_home.scss */
+.services .service-wrap h2 {
+  color: #4C4C4C;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+/* line 127, ../sass/_home.scss */
+.services .service-wrap h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+/* line 133, ../sass/_home.scss */
+.services .service-wrap hr {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-color: #bbbbbb;
+}
+/* line 139, ../sass/_home.scss */
+.services .service-wrap ul {
+  padding-left: 15px;
+}
+/* line 142, ../sass/_home.scss */
+.services .service-wrap ul li {
+  margin-bottom: 10px;
+}

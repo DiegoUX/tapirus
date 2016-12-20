@@ -1,0 +1,147 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background: $yellow;
+	height: 3000px;
+	font-family: 'Asap', sans-serif;
+	font-weight: 400;
+	color: $darkGray;
+}
+
+header.minify nav {
+	background: rgba(76,76,76,0.75);
+
+	.navbar-header .navbar-brand {
+		width: 104px;
+	}
+}
+
+
+
+header {
+	.navbar-default {
+		background: transparent;
+		border: none;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		-ms-transition: all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+	.navbar {
+		padding: 10px 0;
+
+		.navbar-header {
+			.navbar-brand {
+				position: absolute;
+				top: 0;
+				background: $yellow;
+				height: auto;
+				width: 160px;
+				margin-left: 0;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+
+				img {
+					padding-top: 15px;
+				}
+			}
+		}
+		.menu {
+			margin-bottom: 0;
+			padding: 15px 0;
+
+			li {
+				display: inline-block;
+				a {
+					margin-left: 20px;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
+
+// Section: Hero
+.hero {
+	background: url("http://placehold.it/2000x500/867D7F/999999") no-repeat scroll center center;
+    height: 500px;
+    background-size: cover;
+}
+
+// Section: About Us
+.aboutUs {
+	text-align: center;
+	padding: 60px 0;
+
+	h1 {
+		font-weight: 500;
+		color: #ffffff;
+		margin-bottom: 35px;
+		margin-top: 0;
+	}
+
+	h2 {
+		font-weight: 400;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.125rem;
+	}
+} 
+
+// Services...
+.services {
+	background: $gray;
+	padding: 60px 0;
+
+	h2 {
+		font-weight: 400;
+		color: #ffffff;
+		margin-bottom: 4rem;
+
+		span {
+			display: block;
+			font-weight: 500;
+		}
+	}
+
+	.service-wrap {
+		background: #ffffff;
+		padding: 40px 20px;
+
+		h2 {
+			color: $darkGray;
+			text-transform: uppercase;
+			margin-top: 0;
+			margin-bottom: 2rem;
+			font-weight: 500;
+		}
+
+		h3 {
+			font-size: 1.125rem;
+			font-weight: 400;
+			line-height: 130%;
+		}
+
+		hr {
+			margin-bottom: 30px;
+			margin-top: 30px;
+			border-color: #bbbbbb;
+		}
+
+		ul {
+			padding-left: 15px;
+
+			li {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
