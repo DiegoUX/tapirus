@@ -8796,6 +8796,34 @@ h1 {
 /* line 15, ../sass/_variables.scss */
 h2 {
   font-size: 2.4rem;
+  margin: 0;
+}
+
+/* line 20, ../sass/_variables.scss */
+.btn-main {
+  background: #FFCC00;
+  border: 2px solid transparent;
+  padding: 14px;
+  font-size: 1rem;
+  color: #4C4C4C;
+  min-width: 200px;
+  font-weight: 500;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+/* line 38, ../sass/_variables.scss */
+.btn-main:hover {
+  text-decoration: none;
+  color: #FFCC00;
+  background: transparent;
+  border: 2px solid #FFCC00;
 }
 
 /* line 1, ../sass/_home.scss */
@@ -8818,7 +8846,7 @@ header.minify nav {
 }
 /* line 16, ../sass/_home.scss */
 header.minify nav .navbar-header .navbar-brand {
-  width: 104px;
+  width: 91px;
 }
 
 /* line 24, ../sass/_home.scss */
@@ -8878,7 +8906,7 @@ header .navbar .menu li a {
 /* line 78, ../sass/_home.scss */
 .aboutUs {
   text-align: center;
-  padding: 60px 0;
+  padding: 75px 0;
 }
 /* line 82, ../sass/_home.scss */
 .aboutUs h1 {
@@ -8900,7 +8928,7 @@ header .navbar .menu li a {
 /* line 100, ../sass/_home.scss */
 .services {
   background: #B7B7B7;
-  padding: 60px 0;
+  padding: 75px 0;
 }
 /* line 104, ../sass/_home.scss */
 .services h2 {
@@ -8945,4 +8973,73 @@ header .navbar .menu li a {
 /* line 142, ../sass/_home.scss */
 .services .service-wrap ul li {
   margin-bottom: 10px;
+}
+/* line 148, ../sass/_home.scss */
+.services .quickContact {
+  padding: 95px 0 20px;
+  overflow: hidden;
+}
+/* line 152, ../sass/_home.scss */
+.services .quickContact h2 {
+  display: inline-block;
+  margin: 0 40px 0 0;
+  vertical-align: middle;
+}
+
+/* line 161, ../sass/_home.scss */
+.ourWork {
+  background: #ffffff;
+  padding: 75px 0;
+}
+/* line 165, ../sass/_home.scss */
+.ourWork h2 {
+  color: #4C4C4C;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+/* line 171, ../sass/_home.scss */
+.ourWork .gridWorks {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+/* line 175, ../sass/_home.scss */
+.ourWork .gridWorks img {
+  width: 100%;
+}
+/* line 179, ../sass/_home.scss */
+.ourWork .gridWorks .workTitle {
+  font-size: 1rem;
+  color: #4C4C4C;
+  text-transform: uppercase;
+  margin-top: 10px;
+  display: inline-block;
+}
+/* line 187, ../sass/_home.scss */
+.ourWork .gridWorks ul {
+  padding: 0;
+}
+/* line 190, ../sass/_home.scss */
+.ourWork .gridWorks ul li {
+  display: inline-block;
+  font-size: 12px;
+  line-height: normal;
+  padding: 2px 6px;
+  color: #ffffff;
+  margin-right: 3px;
+}
+/* line 198, ../sass/_home.scss */
+.ourWork .gridWorks ul li:last-child {
+  margin-right: 0;
+}
+/* line 202, ../sass/_home.scss */
+.ourWork .gridWorks ul li.tagIdentidad {
+  background: #CC6666;
+}
+/* line 203, ../sass/_home.scss */
+.ourWork .gridWorks ul li.tagWeb {
+  background: #008DA5;
+}
+/* line 204, ../sass/_home.scss */
+.ourWork .gridWorks ul li.tagEditorial {
+  background: #695890;
 }

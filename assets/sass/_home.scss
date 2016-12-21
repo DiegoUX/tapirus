@@ -14,7 +14,7 @@ header.minify nav {
 	background: rgba(76,76,76,0.75);
 
 	.navbar-header .navbar-brand {
-		width: 104px;
+		width: 91px;
 	}
 }
 
@@ -77,7 +77,7 @@ header {
 // Section: About Us
 .aboutUs {
 	text-align: center;
-	padding: 60px 0;
+	padding: 75px 0;
 
 	h1 {
 		font-weight: 500;
@@ -99,7 +99,7 @@ header {
 // Services...
 .services {
 	background: $gray;
-	padding: 60px 0;
+	padding: 75px 0;
 
 	h2 {
 		font-weight: 400;
@@ -141,6 +141,68 @@ header {
 
 			li {
 				margin-bottom: 10px;
+			}
+		}
+	}
+
+	.quickContact {
+		padding: 95px 0 20px;
+		overflow: hidden;
+
+		h2 {
+			display: inline-block;
+			margin: 0 40px 0 0;
+			vertical-align: middle;
+		}
+	}
+}
+
+// Our Work...
+.ourWork {
+	background: #ffffff;
+	padding: 75px 0;
+
+	h2 {
+		color: $darkGray;
+		text-transform: uppercase;
+		margin-bottom: 60px;
+	}
+
+	.gridWorks {
+		margin-bottom: 30px;
+    	overflow: hidden;
+		
+		img {
+			width: 100%;
+		}
+
+		.workTitle {
+			font-size: 1rem;
+			color: $darkGray;
+			text-transform: uppercase;
+			margin-top: 10px;
+			display: inline-block;
+		}
+
+		ul {
+			padding: 0;
+
+			li {
+				display: inline-block;
+			    font-size: 12px;
+			    line-height: normal;
+			    padding: 2px 6px;
+			    color: #ffffff;
+			    margin-right: 3px;
+
+			    &:last-child { 
+			    	margin-right: 0;
+			    }	
+
+			    &.tagIdentidad { background: $red; }
+			    &.tagWeb { background: $blue; }
+			    &.tagEditorial { background: $violet; }
+
 			}
 		}
 	}

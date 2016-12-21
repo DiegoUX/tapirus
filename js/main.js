@@ -55,6 +55,11 @@
 
 		// Set equalCols...
 		$(".equalCol").equalHeights();
+
+		// Testimonials carousel...
+		$('.carousel').carousel({
+		  interval: 2000
+		})
 	});
 	
 })(jQuery, this);

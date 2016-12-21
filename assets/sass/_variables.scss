@@ -14,4 +14,31 @@ h1 {
 
 h2 {
 	font-size: 2.4rem;
+	margin: 0;
+}
+
+.btn-main {
+	background: $yellow;
+	border: 2px solid transparent;
+	padding: 14px;
+	font-size: 1rem;
+	color: $darkGray;
+	min-width: 200px;
+	font-weight: 500;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+
+	&:hover {
+		text-decoration: none;
+		color: $yellow;
+		background: transparent;
+		border: 2px solid $yellow;
+	}
 }
