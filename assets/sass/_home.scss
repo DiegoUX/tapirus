@@ -8,13 +8,21 @@ body {
 	font-family: 'Asap', sans-serif;
 	font-weight: 400;
 	color: $darkGray;
+	position: relative;
 }
 
 header.minify nav {
 	background: rgba(76,76,76,0.75);
 
 	.navbar-header .navbar-brand {
-		width: 91px;
+		width: 90px;
+
+		h1 {
+			position: absolute;
+			// top: -20px;
+			opacity: 0;
+			font-size: 0.9rem;
+		}
 	}
 }
 
@@ -39,28 +47,58 @@ header {
 				top: 0;
 				background: $yellow;
 				height: auto;
-				width: 160px;
+				width: 120px;
 				margin-left: 0;
+				padding: 22px 15px 15px 18px;
 				-webkit-transition: all 0.3s ease;
 				-moz-transition: all 0.3s ease;
 				-ms-transition: all 0.3s ease;
 				-o-transition: all 0.3s ease;
 				transition: all 0.3s ease;
 
-				img {
-					padding-top: 15px;
+				h1 {
+					color: #575756;
+				    display: inline-block;
+				    font-size: 1.4rem;
+				    font-weight: 500;
+				    margin: -5px 0 0;
+				    opacity: 1;
+				    text-transform: uppercase;
+				    -webkit-transition: all 0.4s ease;
+					-moz-transition: all 0.4s ease;
+					-ms-transition: all 0.4s ease;
+					-o-transition: all 0.4s ease;
+					transition: all 0.4s ease;
 				}
 			}
 		}
 		.menu {
 			margin-bottom: 0;
 			padding: 15px 0;
+			margin-right: 0;
 
 			li {
 				display: inline-block;
 				a {
 					margin-left: 20px;
 					color: #ffffff;
+					padding: 0;
+
+					&:hover {
+						border-bottom: 2px solid #fff;
+						background: transparent;
+					}
+
+					&:focus {
+						background: transparent;
+					}
+
+				}
+
+				&.active {
+					a {
+						border-bottom: 2px solid #fff;
+					}
 				}
 			}
 		}

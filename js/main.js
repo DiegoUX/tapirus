@@ -47,10 +47,15 @@
 			}
 		});
 
+		// Scrollspy...
+		$('body').scrollspy({ 
+			target: '#mobile-nav',
+			offset: 75
+		});
 
 		// Smooth scroll effect...
 		smoothScroll.init({
-		    offset: 70 // Integer. How far to offset the scrolling anchor location in pixels
+		    offset: 72 // Integer. How far to offset the scrolling anchor location in pixels
 		});
 
 		// Set equalCols...
