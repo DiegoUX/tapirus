@@ -25,8 +25,6 @@ header.minify nav {
 	}
 }
 
-
-
 header {
 	.navbar-default {
 		background: transparent;
@@ -176,7 +174,7 @@ header {
 	h2 {
 		font-weight: 400;
 		color: #ffffff;
-		margin-bottom: 4rem;
+		margin-bottom: 5rem;
 
 		span {
 			display: block;
@@ -184,9 +182,30 @@ header {
 		}
 	}
 
+	.idntVisual:before {
+		content: url('../../img/img-identidad.svg');
+	}
+
+	.dsnWeb:before {
+		content: url('../../img/img-web.svg');
+		position: absolute;
+			top: -35px;
+			right: 35px;
+	}
+
+	.dsnEditorial:before {
+		content: url('../../img/img-editorial.svg');
+	}
+
 	.service-wrap {
 		background: #ffffff;
 		padding: 40px 20px;
+
+		&:before {
+			position: absolute;
+			top: -35px;
+			right: 35px;
+		}
 
 		h2 {
 			color: $darkGray;
@@ -278,4 +297,78 @@ header {
 			}
 		}
 	}
+}
+
+// Testimonials...
+
+.testimonials {
+	padding: 75px 0;
+
+	#testimonial-carousel {
+		.carousel-inner {
+			margin: 0 auto;
+			width: 70%;
+			min-height: 300px;
+
+			blockquote {
+				margin: 1.5em 10px;
+				padding: 0.5em 10px;
+				quotes: "\201C""\201D";
+				border: 0;
+				text-align: center;
+				font-style: italic;
+			
+				&:before {
+				  content: open-quote;
+				  font-size: 4em;
+				  line-height: 0.1em;
+				  // margin-right: 0.25em;
+				  vertical-align: -0.4em;
+				}
+
+				p {
+					display: inline;
+				}
+
+				hr {
+					width: 50%;
+					margin: 30px auto;
+					border-color: $darkGray;
+				}
+
+				span {
+					font-style: normal;
+					font-weight: 500;
+					display: block;
+					text-align: center;
+				}
+
+				small {
+					text-align: center;	
+					font-style: normal;
+					color: $darkGray;
+					font-size: 12px;			
+
+					&:before {
+						content: "";
+					}
+				}
+			}
+		}
+
+		.carousel-control {
+			background-image: none;
+		}
+
+		.carousel-indicators {
+			bottom: -40px;
+		}
+	}
+}
+
+// Footer...
+
+footer {
+	background: #444;
+	padding: 75px 0;
 }
