@@ -62,9 +62,65 @@
 		$(".equalCol").equalHeights();
 
 		// Testimonials carousel...
-		$('.carousel').carousel({
-		  interval: 8000
-		})
+
+		$('.testimonials-carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: true,
+            prevArrow: '<a class="slick-prev ion-ios-arrow-left"></a>',
+            nextArrow: '<a class="slick-next ion-ios-arrow-right"></a>'
+        });
+
+		// LigthGalery plugin...
+		$('#hash1').lightGallery({
+            galleryId: 1,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+        // if You have multiple galleries on same page you have to set unique id's for each gallery.
+        
+        $('#hash2').lightGallery({
+            galleryId: 2,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+        $('#hash3').lightGallery({
+            galleryId: 3,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+            
+        $('#hash4').lightGallery({
+            galleryId: 4,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+
+        $('#hash5').lightGallery({
+            galleryId: 5,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+
+        $('#hash6').lightGallery({
+            galleryId: 6,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+
+        $('#hash7').lightGallery({
+            galleryId: 7,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+
+        $('#hash8').lightGallery({
+            galleryId: 8,
+            subHtmlSelectorRelative: true,
+            download: false
+        });
+
+          
 	});
 	
 })(jQuery, this);

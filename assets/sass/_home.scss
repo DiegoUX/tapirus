@@ -104,8 +104,8 @@ header {
 
 // Section: Hero
 .hero {
-	background: url("../../img/hero.jpg") no-repeat scroll center center;
-    height: 600px;
+	background: url("../../img/hero.jpg") no-repeat fixed center center;
+    height: 400px;
     background-size: cover;
     position: relative;
 
@@ -273,6 +273,7 @@ header {
 			text-transform: uppercase;
 			margin-top: 10px;
 			display: inline-block;
+			margin-bottom: 5px;
 		}
 
 		ul {
@@ -304,11 +305,41 @@ header {
 .testimonials {
 	padding: 75px 0;
 
-	#testimonial-carousel {
-		.carousel-inner {
-			margin: 0 auto;
-			width: 70%;
-			min-height: 300px;
+	.slick-slider {
+		margin: 0 auto;
+		width: 70%;
+		min-height: 300px;
+
+		.slick-arrow {
+			-webkit-transition: all 0.4s ease;
+			-moz-transition: all 0.4s ease;
+			-ms-transition: all 0.4s ease;
+			-o-transition: all 0.4s ease;
+			transition: all 0.4s ease;
+			color: $darkGray;
+		    cursor: pointer;
+		    font-size: 40px;
+		    padding: 10px;
+		    position: absolute;
+		    top: 30%;
+		    opacity: 0.4;
+
+
+		    &:hover {
+		    	opacity: 1;
+		    }
+		}
+
+		.slick-prev {
+			left: -50px;
+		}
+		.slick-next {
+			right: -50px;
+			left: auto;
+		}
+
+
+		.slick-slide {
 
 			blockquote {
 				margin: 1.5em 10px;
@@ -355,14 +386,6 @@ header {
 				}
 			}
 		}
-
-		.carousel-control {
-			background-image: none;
-		}
-
-		.carousel-indicators {
-			bottom: -40px;
-		}
 	}
 }
 
@@ -371,4 +394,16 @@ header {
 footer {
 	background: #444;
 	padding: 75px 0;
+
+	.contact {
+		form {
+			label {
+				color: #ffffff;
+				display: block;
+			}
+		}
+	}
 }
+
+
+
