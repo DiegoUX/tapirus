@@ -4,6 +4,7 @@ html {
 
 body {
 	background: $yellow;
+	// font-family: 'Open Sans', sans-serif;
 	font-family: 'Asap', sans-serif;
 	font-weight: 400;
 	color: $darkGray;
@@ -54,6 +55,7 @@ header {
 				transition: all 0.3s ease;
 
 				h1 {
+					// font-family: 'Asap', sans-serif;
 					color: #575756;
 				    display: inline-block;
 				    font-size: 1.4rem;
@@ -104,41 +106,121 @@ header {
 
 // Section: Hero
 .hero {
-	background: url("../../img/hero.jpg") no-repeat fixed center center;
-    height: 400px;
-    background-size: cover;
+	// background: url("../../img/hero4.svg") no-repeat center center;
+    padding-bottom: 120px;
+    background-color: $blue2;
+    height: auto;
     position: relative;
 
     h1 {
     	color: #ffffff;
-	    font-size: 1.1rem;
+	    font-size: 0.8rem;
 	    font-weight: 400;
 	    line-height: 140%;
-	    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-	    margin-top: 160px;
+	    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);	 
+	    margin-left: 145px;
+    	margin-top: 70px;
 
 	    strong {
 	    	font-weight: 500;
 	    }
     }
 
-    h2 {
-	    bottom: 145px;
-	    color: white;
-	    font-size: 3rem;
-	    font-weight: 500;
-	    padding-left: 15px;
-	    position: absolute;
-	    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-    }
+	.main-img {
+		margin-top: 140px;
+	}
 
-    &:before {
-    	background: rgba(0, 0, 0, 0.54) none repeat scroll 0 0;
-	    content: "";
-	    display: inline-block;
-	    height: 100%;
-	    position: absolute;
-	    width: 100%;
+    .main-mse {
+    	background: $blue4 none repeat scroll 0 0;
+    	border-radius: 18px;
+    	box-shadow: 1px 1px $blue1, 
+    				2px 2px $blue1, 
+    				3px 3px $blue1, 
+    				5px 5px $blue1, 
+    				6px 6px $blue1,
+    				7px 7px $blue1,
+    				8px 8px $blue1,
+    				9px 9px $blue1,
+    				10px 10px $blue1,
+    				11px 11px $blue1,
+    				12px 12px $blue1,
+    				13px 13px $blue1,
+    				15px 15px $blue1,
+    				16px 16px $blue1,
+    				17px 17px $blue1,
+    				18px 18px $blue1,
+    				19px 19px $blue1,
+    				20px 20px $blue1,
+    				21px 21px $blue1,
+    				22px 22px $blue1,
+    				23px 23px $blue1,
+    				24px 24px $blue1,
+    				25px 25px $blue1,
+    				26px 26px $blue1,
+    				27px 27px $blue1,
+    				28px 28px $blue1,
+    				29px 29px $blue1,
+    				30px 30px $blue1,
+    				31px 31px $blue1,
+    				32px 32px $blue1,
+    				33px 33px $blue1,
+    				34px 34px $blue1,
+    				35px 35px $blue1,
+    				36px 36px $blue1,
+    				37px 37px $blue1,
+    				38px 38px $blue1,
+    				39px 39px $blue1,
+    				40px 40px $blue1,
+    				41px 41px $blue1,
+    				42px 42px $blue1,
+    				43px 43px $blue1,
+    				44px 44px $blue1,
+    				45px 45px $blue1,
+    				46px 46px $blue1,
+    				47px 47px $blue1,
+    				48px 48px $blue1,
+    				49px 49px $blue1,
+    				50px 50px $blue1,
+    				51px 51px $blue1,
+    				52px 52px $blue1,
+    				53px 53px $blue1,
+    				54px 54px $blue1,
+    				55px 55px $blue1,
+    				56px 56px $blue1,
+    				57px 57px $blue1,
+    				58px 58px $blue1,
+    				59px 59px $blue1,
+    				60px 60px $blue1
+    				;
+	    color: white;
+	    padding: 50px 60px;
+	    position: relative;
+	    // top: 80px;
+
+	    &:before {
+		    border-right: 135px solid #456a77;
+		    border-top: 90px solid transparent;
+		    content: "";
+		    height: 0;
+		    margin: 75px 0 0 -180px;
+		    position: absolute;
+		    width: 0;
+		}
+
+	    h2 {
+	    	font-size: 3.4rem;
+			margin-bottom: 20px;
+	    }
+
+	    h4 {
+			font-size: 21px;
+			font-weight: 400;
+			line-height: 2rem;
+	    }
+
+	    .btn-main {
+	    	margin-top: 30px;
+	    }
     }
 }
 

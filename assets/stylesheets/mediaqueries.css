@@ -1,0 +1,53 @@
+@media only screen and (max-width: 992px) {
+  /* line 3, ../sass/mediaqueries.scss */
+  .hero .main-img {
+    text-align: center;
+    margin-top: 110px;
+  }
+  /* line 8, ../sass/mediaqueries.scss */
+  .hero .main-mse {
+    margin-top: 130px;
+  }
+  /* line 11, ../sass/mediaqueries.scss */
+  .hero .main-mse:before {
+    border-left: 95px solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 95px solid #456a77;
+    margin: 355px 235px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 22, ../sass/mediaqueries.scss */
+  .navbar-brand {
+    margin-left: 15px;
+    padding: 10px 8px 8px 10px;
+    width: 80px;
+  }
+  /* line 27, ../sass/mediaqueries.scss */
+  .navbar-brand h1 {
+    font-size: 1rem;
+  }
+
+  /* line 33, ../sass/mediaqueries.scss */
+  .hero h1 {
+    display: none;
+  }
+  /* line 37, ../sass/mediaqueries.scss */
+  .hero .main-mse {
+    box-shadow: none;
+    padding: 40px 30px;
+  }
+  /* line 41, ../sass/mediaqueries.scss */
+  .hero .main-mse:before {
+    margin: 330px 68px 0;
+  }
+  /* line 45, ../sass/mediaqueries.scss */
+  .hero .main-mse h2 {
+    font-size: 2.5rem;
+  }
+  /* line 49, ../sass/mediaqueries.scss */
+  .hero .main-mse h4 {
+    font-size: 16px;
+    line-height: 1.7rem;
+  }
+}
