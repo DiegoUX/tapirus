@@ -55,7 +55,6 @@ header {
 				transition: all 0.3s ease;
 
 				h1 {
-					// font-family: 'Asap', sans-serif;
 					color: #575756;
 				    display: inline-block;
 				    font-size: 1.4rem;
@@ -106,7 +105,6 @@ header {
 
 // Section: Hero
 .hero {
-	// background: url("../../img/hero4.svg") no-repeat center center;
     padding-bottom: 120px;
     background-color: $blue2;
     height: auto;
@@ -231,86 +229,91 @@ header {
 	text-align: center;
 	padding: 75px 0;
 
-	h1 {
-		font-weight: 500;
-		color: #ffffff;
-		margin-bottom: 35px;
-		margin-top: 0;
-	}
-
 	h2 {
-		font-weight: 400;
-		margin-bottom: 2rem;
+		margin-bottom: 1.4rem;
 	}
 
-	p {
-		font-size: 1.125rem;
+	h4 {
+		font-size: 1.4rem;
+		font-weight: 400;
+		line-height: 1.8rem;
+
+		strong {
+			font-weight: 500;
+		}
 	}
 } 
 
 // Services...
 .services {
-	background: $gray;
-	padding: 75px 0;
+	background: $blue4;
+	padding: 75px 0 0 0;
 
-	h2 {
-		font-weight: 400;
-		color: #ffffff;
-		margin-bottom: 5rem;
+	// h2 {
+	// 	font-weight: 400;
+	// 	color: #ffffff;
+	// 	margin-bottom: 5rem;
 
-		span {
-			display: block;
-			font-weight: 500;
-		}
-	}
+	// 	span {
+	// 		display: block;
+	// 		font-weight: 500;
+	// 	}
+	// }
 
-	.idntVisual:before {
-		content: url('../../img/img-identidad.svg');
-	}
+	// .idntVisual:before {
+	// 	content: url('../../img/img-identidad.svg');
+	// }
 
-	.dsnWeb:before {
-		content: url('../../img/img-web.svg');
-		position: absolute;
-			top: -35px;
-			right: 35px;
-	}
+	// .dsnWeb:before {
+	// 	content: url('../../img/img-web.svg');
+	// 	position: absolute;
+	// 		top: -35px;
+	// 		right: 35px;
+	// }
 
-	.dsnEditorial:before {
-		content: url('../../img/img-editorial.svg');
+	// .dsnEditorial:before {
+	// 	content: url('../../img/img-editorial.svg');
+	// }
+	
+	.services-icon {
+		display: block;
+	    margin: 0 auto -110px;
+	    width: 65%;
 	}
 
 	.service-wrap {
-		background: #ffffff;
-		padding: 40px 20px;
+		background: $blue3;
+		padding: 140px 30px 30px;
+		color: #FFFFFF;
+		text-align: center;
 
-		&:before {
-			position: absolute;
-			top: -35px;
-			right: 35px;
-		}
+		// &:before {
+		// 	position: absolute;
+		// 	top: -35px;
+		// 	right: 35px;
+		// }
 
 		h2 {
-			color: $darkGray;
+			font-size: 1.6rem;
 			text-transform: uppercase;
 			margin-top: 0;
 			margin-bottom: 2rem;
 			font-weight: 500;
+			line-height: 1.8rem;
 		}
 
-		h3 {
-			font-size: 1.125rem;
+		p {
+			font-size: 1rem;
 			font-weight: 400;
 			line-height: 130%;
-		}
-
-		hr {
-			margin-bottom: 30px;
-			margin-top: 30px;
-			border-color: #bbbbbb;
+			margin-bottom: 50px;
 		}
 
 		ul {
 			padding-left: 15px;
+			text-align: left;
+			margin-left: 25px;
+			margin-bottom: 30px;
 
 			li {
 				margin-bottom: 10px;

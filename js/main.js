@@ -71,55 +71,110 @@
             nextArrow: '<a class="slick-next ion-ios-arrow-right"></a>'
         });
 
-		// LigthGalery plugin...
-		$('#hash1').lightGallery({
-            galleryId: 1,
-            subHtmlSelectorRelative: true,
-            download: false
+        // Porfolio Gallery Setup //
+
+        $("#elastic_grid").elastic_grid({
+            'items' :
+            [
+                {
+                    'title'         : 'Identidad visual para Áreas Protegidas de Tucumán',
+                    'description'   : ' Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
+                    'thumbnail'     : ['img/porfolio/areas-protegidas/min-ap-1.jpg', 'img/porfolio/areas-protegidas/min-ap-2.jpg', 'img/porfolio/areas-protegidas/min-ap-3.jpg', 'img/porfolio/areas-protegidas/min-ap-4.jpg'],
+                    'large'         : ['img/porfolio/areas-protegidas/ap-1.jpg', 'img/porfolio/areas-protegidas/ap-2.jpg', 'img/porfolio/areas-protegidas/ap-3.jpg', 'img/porfolio/areas-protegidas/ap-4.jpg'],
+                    'button_list'   :
+                    [
+                        // { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        // { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'Identidad Visual del Parque Percy Hill',
+                    'description'   : 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
+                    'thumbnail'     : ['img/porfolio/percy-hill/min-ph-1.jpg', 'img/porfolio/percy-hill/min-ph-2.jpg', 'img/porfolio/percy-hill/min-ph-3.jpg'],
+                    'large'         : ['img/porfolio/percy-hill/ph-1.jpg', 'img/porfolio/percy-hill/ph-2.jpg', 'img/porfolio/percy-hill/ph-3.jpg'],
+                    'button_list'   :
+                    [
+                        // { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        // { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'Title #3',
+                    'description'   : 'Description text here',
+                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
+                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'Title #4',
+                    'description'   : 'Description text here',
+                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
+                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'], 
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'Title #5',
+                    'description'   : 'Description text here',
+                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
+                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'Title #6',
+                    'description'   : 'Description text here',
+                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
+                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'Title #7',
+                    'description'   : 'Description text here',
+                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
+                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                },{
+                    'title'         : 'Title #8',
+                    'description'   : 'Description text here',
+                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
+                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
+                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                    ],
+                    'tags'          : ['']
+                }
+            ]
         });
-        // if You have multiple galleries on same page you have to set unique id's for each gallery.
         
-        $('#hash2').lightGallery({
-            galleryId: 2,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-        $('#hash3').lightGallery({
-            galleryId: 3,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-            
-        $('#hash4').lightGallery({
-            galleryId: 4,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-
-        $('#hash5').lightGallery({
-            galleryId: 5,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-
-        $('#hash6').lightGallery({
-            galleryId: 6,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-
-        $('#hash7').lightGallery({
-            galleryId: 7,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-
-        $('#hash8').lightGallery({
-            galleryId: 8,
-            subHtmlSelectorRelative: true,
-            download: false
-        });
-
+        // End Porfolio Gallery //
           
 	});
 	

@@ -12,12 +12,13 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+        <!-- <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> -->
         <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,700,700i" rel="stylesheet">
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> -->
         <link href="assets/stylesheets/styles.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css" />
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/smooth-scroll.min.js"></script>
@@ -47,7 +48,7 @@
                 <div class="collapse navbar-collapse" id="mobile-nav">
                     <ul class="menu navbar-right nav">
                       <li role="presentation" class="active"><a href="#home" data-scroll>Inicio</a></li>
-                      <li role="presentation"><a href="#aboutUs" data-scroll>Nosotros</a></li>
+                      <li role="presentation"><a href="#aboutUs" data-scroll>Propósito</a></li>
                       <li role="presentation"><a href="#services" data-scroll>Servicios</a></li>
                       <li role="presentation"><a href="#ourWork" data-scroll>Trabajos</a></li>
                       <li role="presentation"><a href="#contact">Contacto</a></li>
@@ -66,9 +67,6 @@
                         ambientales y sociales.</strong></h1>
                     </div>
                 </div>
-                <!-- <div class="imageHero">
-                    <img src="img/hero5.svg" alt="">
-                </div> -->
                 <div class="row">
                     <div class=" col-lg-8 col-lg-push-4 col-md-7 col-md-push-5">
                         <div class="main-mse">
@@ -76,7 +74,7 @@
                             <h4>Tu organización trabaja día a día por un mundo mejor, 
                             nosotros queremos ayudarte a comunicar tu labor
                             de una manera simple y atractiva.</h4>
-                            <a href="#" class="btn-main">Escribinos!</a>
+                            <a href="#contact" class="btn-main">Escribinos!</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-lg-pull-8 col-md-5 col-md-pull-7 main-img">
@@ -89,27 +87,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <h1>NUESTRO PROPÓSITO</h1>
-                        <h2>Creemos que en la colaboración con nuestros clientes se potencian nuestros ideales.</h2>
-                        <p>Somos un estudio de comunicación visual especializado en identidad, diseño gráfico y web para propósitos ambientales y sociales, sus fundadores cuentan con  más de 10 años experiencia.</p>
-                        <p>En los últimos años se profundizó nuestro compromiso al adoptar un estilo de vida diferente, vivir lejos de la ciudad y cerca de la naturaleza le dió aún más sentido a este proyecto, así decidimos fundar Tapirus.</p>
+                        <h2>Nuestro Propósito</h2>
+                        <h4>Ayudar a las organizaciones a expresar su propósito, identidad y gestión a través de <strong>comunicaciones visuales atractivas y de fácil interpretación.</strong></h4>
                     </div>
                 </div>
             </div>
         </section>
         <section class="services" id="services">
             <div class="container">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-9">
                         <h2><span>El trabajo colaborativo es nuestra naturaleza</span> y estas son nuestras habilidades</h2>
                     </div>
-                </div>
+                </div> -->
                 <div class="row row-eq-height">
                     <div class="col-md-4 ">
-                        <div class="service-wrap idntVisual equalCol">
-                            <h2>Identidad Visual /Marcas</h2>
-                            <h3>Creamos logos y damos estilo a las comunicaciones de manera que expresen genuinamente el propósito de la organización o proyecto.</h3>
-                            <hr>
+                        <img class="services-icon" src="img/icon-service-1.svg" alt="Marca e Identidad Visual">
+                        <div class="service-wrap equalCol">
+                            <h2>Marca<br> Identidad Visual</h2>
+                            <p>Creamos logos y damos estilo a las comunicaciones de manera que expresen genuinamente el propósito de la organización o proyecto.</p>
                             <ul>
                                 <li>Diseño de logos</li>
                                 <li>Desarrollo de un estilo único</li>
@@ -119,10 +115,10 @@
                         </div>
                     </div>
                     <div class="col-md-4 ">
-                        <div class="service-wrap dsnWeb equalCol">
+                        <img class="services-icon" src="img/icon-service-2.svg" alt="Diseño Web">
+                        <div class="service-wrap equalCol">
                             <h2>Diseño Web</h2>
-                            <h3>Creamos sitios que llegan a tu público y se adaptan a las tecnologías cambiantes.</h3>
-                            <hr>
+                            <p>Diseñamos sitios que llegan a tu público y se adaptan a las tecnologías cambiantes.</p>
                             <ul>
                                 <li>Diseño presonalizado</li>
                                 <li>Procuramos una buena experiencia de navegación para los usuarios</li>
@@ -131,10 +127,10 @@
                         </div>
                     </div>
                     <div class="col-md-4 ">
-                        <div class="service-wrap dsnEditorial equalCol">
-                            <h2>Diseño Editorial y de Información</h2>
-                            <h3>Tus acciones y contenidos expresados con claridad.</h3>
-                            <hr>
+                        <img class="services-icon" src="img/icon-service-3.svg" alt="Editorial e Infografía">
+                        <div class="service-wrap equalCol">
+                            <h2>Editorial<br> e Infografía</h2>
+                            <p>Tus acciones y contenidos<br> expresados con claridad.</p>
                             <ul>
                                 <li>Infografías</li>
                                 <li>Cartelería de interior y exterior</li>
@@ -144,160 +140,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="quickContact">
-                        <div class="col-lg-12">
-                            <h2>Estamos listos para trabajar juntos</h2>
-                            <a href="" class="btn-main">Escribinos Ahora!</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
+
         <section class="ourWork" id="ourWork">
             <div class="container">
                 <div class="row">
-                    <h2 class="text-center">Ellos ya confiaron en nosotros</h2>
-                </div>
-                <div class="row">
-                    <div class="gridWorks">
-                        <div class="col-md-3">
-                            <div id="hash1">
-                                <a href="http://placehold.it/800x600" data-sub-html=".caption">
-                                    <div class="caption" style="display: none;">
-                                        <h4>Caption1</h4><p>Desc1</p>
-                                    </div>
-                                    <img src="http://placehold.it/400x300" alt="Áreas Protegidas Tucumán">
-                                </a>
-                                <a href="http://placehold.it/801x600" data-sub-html=".caption">
-                                    <div class="caption" style="display: none;">
-                                        <h4>Caption3</h4><p>Desc3</p>
-                                    </div>
-                                </a>
-                                <a href="http://placehold.it/802x600"></a>
-                            </div>
-                            <h3 class="workTitle">ÁREAS PROTEGIDAS DE TUCUMÁN</h3>
-                            <ul>
-                                <li class="tagIdentidad">logo</li>
-                                <li class="tagIdentidad">identidad</li>
-                                <li class="tagEditorial">cartelería</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <div id="hash2">
-                                <a href="http://placehold.it/800x600/fff000">
-                                    <img src="http://placehold.it/800x600" alt="">
-                                </a>
-                                <a href="http://placehold.it/400x300/fff000"></a>
-                            </div>    
-                            <h3 class="workTitle">TEJIENDO CONCIENCIA</h3>
-                            <ul>
-                                <li class="tagIdentidad">logo</li>
-                                <li class="tagIdentidad">identidad</li>
-                                <li class="tagWeb">web</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <div id="hash3">
-                                <a href="http://placehold.it/800x600"">
-                                    <img src="http://placehold.it/800x600" alt="">
-                                </a>
-                                <a href="http://placehold.it/801x600/fff000"></a>
-                                <a href="http://placehold.it/802x600/fff000"></a>
-                                <a href="http://placehold.it/803x600/fff000"></a>
-                            </div>
-                            <h3 class="workTitle">PRODUCTOYUNGAS</h3>
-                            <ul>
-                                <li class="tagIdentidad">logo</li>
-                                <li class="tagIdentidad">identidad</li>
-                                <li class="tagWeb">web</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <div id="hash4">
-                                <a href="http://placehold.it/800x600/ff00b0"">
-                                    <img src="http://placehold.it/800x600" alt="">
-                                </a>
-                                <a href="http://placehold.it/800x600/ff00b0"></a>
-                                <a href="http://placehold.it/800x600/ff00b0"></a>
-                            </div>    
-                            <h3 class="workTitle">BOSQUE MODELO</h3>
-                            <ul>
-                                <li class="tagIdentidad">logo</li>
-                                <li class="tagEditorial">brochure</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="gridWorks">
-                        <div class="col-md-3">
-                            <div id="hash5">
-                                <a href="http://placehold.it/1430x644/f500b0">
-                                    <img src="http://placehold.it/800x600" alt="">
-                                </a>
-                                <a href="http://placehold.it/1430x644/f500b0"></a>
-                                <a href="http://placehold.it/1430x644/f500b0"></a>
-                                <a href="http://placehold.it/1430x644/f500b0"></a>
-                            </div>
-                            <h3 class="workTitle">RESERVA CASPINCHANGO</h3>
-                            <ul>
-                                <li class="tagIdentidad">logo</li>
-                                <li class="tagIdentidad">identidad</li>
-                                <li class="tagEditorial">cartelería</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <div id="hash6">
-                                <a href="http://placehold.it/1440x740/f500b0" data-sub-html=".caption">
-                                    <div class="caption" style="display: none;">
-                                        <h4>Logotipo de Reserva Sauzalito</h4>
-                                        <p>Como emblema de la reserva se eligió a la Mulita (Dasypus Yepesy) por su abundancia en la zona.</p>
-                                    </div>
-                                    <img src="img/porfolio/percy-hill/img-1.jpg" alt="Reserva Sauzalito">
-                                </a>
-                                <a href="img/porfolio/percy-hill/img-1.jpg" data-sub-html=".caption">
-                                    <div class="caption" style="display: none;">
-                                        <h4>Mapa Infográfico de la reserva</h4>
-                                        <p>Se ilustra como la reserva opera de corredor para los animales entre Yungas Centrales y el Parque Nacional Calilegua.</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <h3 class="workTitle">RESERVA SAUZALITO</h3>
-                            <ul>
-                                <li class="tagIdentidad">logo</li>
-                                <li class="tagIdentidad">identidad</li>
-                                <li class="tagEditorial">cartelería</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <div id="hash7">
-                                <a href="http://placehold.it/855x600/baa0b0">
-                                    <img src="http://placehold.it/800x600" alt="">
-                                </a>
-                                <a href="http://placehold.it/855x600/baa0b0"></a>
-                                <a href="http://placehold.it/855x600/baa0b0"></a>
-                            </div>
-                            <h3 class="workTitle">CIENCIAS NATURALES - UNT</h3>
-                            <ul>
-                                <li class="tagEditorial">editorial</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <div id="hash8">
-                                <a href="http://placehold.it/855x600/e5a0b0">
-                                    <img src="http://placehold.it/800x600" alt="">
-                                </a>
-                                <a href="http://placehold.it/855x600/e5a0b0"></a>
-                                <a href="http://placehold.it/855x600/e5a0b0"></a>
-                            </div>
-                            <h3 class="workTitle">EDICIONES DEL SUBTRÓPICO</h3>
-                            <ul>
-                                <li class="tagEditorial">libros</li>
-                                <li class="tagEditorial">folletos</li>
-                            </ul>
-                        </div>
-                    </div>  
+                    <div id="elastic_grid"></div>
                 </div>
             </div>
         </section>
@@ -391,12 +240,15 @@
         <script src="js/ajax-form.js"></script>
         <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-        <!-- lightgallery plugins -->
-        <script src="js/lightgallery.min.js"></script>
-        <script src="js/lg-hash.js"></script>
+        
+        <!-- gal -->
+        <script src="js/vendor/gal/classie.js"></script>
+        <script type="text/javascript" src="js/vendor/gal/elastic_grid.encode.js"></script>
+
         <!-- Corousel plugins -->
         <script type="text/javascript" src="js/vendor/slick.min.js"></script>
         <script src="js/main.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
