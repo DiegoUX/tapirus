@@ -4,7 +4,6 @@ html {
 
 body {
 	background: $yellow;
-	// font-family: 'Open Sans', sans-serif;
 	font-family: 'Asap', sans-serif;
 	font-weight: 400;
 	color: $darkGray;
@@ -12,7 +11,8 @@ body {
 }
 
 header.minify nav {
-	background: rgba(76,76,76,0.75);
+	// background: rgba(76,76,76,0.75);
+	background: $blue4;
 
 	.navbar-header .navbar-brand {
 		width: 90px;
@@ -77,6 +77,7 @@ header {
 
 			li {
 				display: inline-block;
+
 				a {
 					margin-left: 20px;
 					color: #ffffff;
@@ -99,6 +100,25 @@ header {
 					}
 				}
 			}
+
+			.social-icon {
+				margin-left: 15px;
+				i {
+					color: #FFFFFF;
+					font-size: 22px;
+					-webkit-transition: all 0.4s ease;
+					-moz-transition: all 0.4s ease;
+					-ms-transition: all 0.4s ease;
+					-o-transition: all 0.4s ease;
+					transition: all 0.4s ease;
+				}
+
+				&:hover {
+					i {
+						opacity: 0.7;
+					}
+				}
+			}
 		}
 	}
 }
@@ -106,7 +126,7 @@ header {
 // Section: Hero
 .hero {
     padding-bottom: 120px;
-    background-color: $blue2;
+    background-color: $blue4;
     height: auto;
     position: relative;
 
@@ -129,66 +149,66 @@ header {
 	}
 
     .main-mse {
-    	background: $blue4 none repeat scroll 0 0;
+    	background: $blue5 none repeat scroll 0 0;
     	border-radius: 18px;
-    	box-shadow: 1px 1px $blue1, 
-    				2px 2px $blue1, 
-    				3px 3px $blue1, 
-    				5px 5px $blue1, 
-    				6px 6px $blue1,
-    				7px 7px $blue1,
-    				8px 8px $blue1,
-    				9px 9px $blue1,
-    				10px 10px $blue1,
-    				11px 11px $blue1,
-    				12px 12px $blue1,
-    				13px 13px $blue1,
-    				15px 15px $blue1,
-    				16px 16px $blue1,
-    				17px 17px $blue1,
-    				18px 18px $blue1,
-    				19px 19px $blue1,
-    				20px 20px $blue1,
-    				21px 21px $blue1,
-    				22px 22px $blue1,
-    				23px 23px $blue1,
-    				24px 24px $blue1,
-    				25px 25px $blue1,
-    				26px 26px $blue1,
-    				27px 27px $blue1,
-    				28px 28px $blue1,
-    				29px 29px $blue1,
-    				30px 30px $blue1,
-    				31px 31px $blue1,
-    				32px 32px $blue1,
-    				33px 33px $blue1,
-    				34px 34px $blue1,
-    				35px 35px $blue1,
-    				36px 36px $blue1,
-    				37px 37px $blue1,
-    				38px 38px $blue1,
-    				39px 39px $blue1,
-    				40px 40px $blue1,
-    				41px 41px $blue1,
-    				42px 42px $blue1,
-    				43px 43px $blue1,
-    				44px 44px $blue1,
-    				45px 45px $blue1,
-    				46px 46px $blue1,
-    				47px 47px $blue1,
-    				48px 48px $blue1,
-    				49px 49px $blue1,
-    				50px 50px $blue1,
-    				51px 51px $blue1,
-    				52px 52px $blue1,
-    				53px 53px $blue1,
-    				54px 54px $blue1,
-    				55px 55px $blue1,
-    				56px 56px $blue1,
-    				57px 57px $blue1,
-    				58px 58px $blue1,
-    				59px 59px $blue1,
-    				60px 60px $blue1
+    	box-shadow: 1px 1px $blue3, 
+    				2px 2px $blue3, 
+    				3px 3px $blue3, 
+    				5px 5px $blue3, 
+    				6px 6px $blue3,
+    				7px 7px $blue3,
+    				8px 8px $blue3,
+    				9px 9px $blue3,
+    				10px 10px $blue3,
+    				11px 11px $blue3,
+    				12px 12px $blue3,
+    				13px 13px $blue3,
+    				15px 15px $blue3,
+    				16px 16px $blue3,
+    				17px 17px $blue3,
+    				18px 18px $blue3,
+    				19px 19px $blue3,
+    				20px 20px $blue3,
+    				21px 21px $blue3,
+    				22px 22px $blue3,
+    				23px 23px $blue3,
+    				24px 24px $blue3,
+    				25px 25px $blue3,
+    				26px 26px $blue3,
+    				27px 27px $blue3,
+    				28px 28px $blue3,
+    				29px 29px $blue3,
+    				30px 30px $blue3,
+    				31px 31px $blue3,
+    				32px 32px $blue3,
+    				33px 33px $blue3,
+    				34px 34px $blue3,
+    				35px 35px $blue3,
+    				36px 36px $blue3,
+    				37px 37px $blue3,
+    				38px 38px $blue3,
+    				39px 39px $blue3,
+    				40px 40px $blue3,
+    				41px 41px $blue3,
+    				42px 42px $blue3,
+    				43px 43px $blue3,
+    				44px 44px $blue3,
+    				45px 45px $blue3,
+    				46px 46px $blue3,
+    				47px 47px $blue3,
+    				48px 48px $blue3,
+    				49px 49px $blue3,
+    				50px 50px $blue3,
+    				51px 51px $blue3,
+    				52px 52px $blue3,
+    				53px 53px $blue3,
+    				54px 54px $blue3,
+    				55px 55px $blue3,
+    				56px 56px $blue3,
+    				57px 57px $blue3,
+    				58px 58px $blue3,
+    				59px 59px $blue3,
+    				60px 60px $blue3
     				;
 	    color: white;
 	    padding: 50px 60px;
@@ -196,7 +216,7 @@ header {
 	    // top: 80px;
 
 	    &:before {
-		    border-right: 135px solid #456a77;
+		    border-right: 135px solid $blue5;
 		    border-top: 90px solid transparent;
 		    content: "";
 		    height: 0;
@@ -246,34 +266,8 @@ header {
 
 // Services...
 .services {
-	background: $blue4;
-	padding: 75px 0 0 0;
-
-	// h2 {
-	// 	font-weight: 400;
-	// 	color: #ffffff;
-	// 	margin-bottom: 5rem;
-
-	// 	span {
-	// 		display: block;
-	// 		font-weight: 500;
-	// 	}
-	// }
-
-	// .idntVisual:before {
-	// 	content: url('../../img/img-identidad.svg');
-	// }
-
-	// .dsnWeb:before {
-	// 	content: url('../../img/img-web.svg');
-	// 	position: absolute;
-	// 		top: -35px;
-	// 		right: 35px;
-	// }
-
-	// .dsnEditorial:before {
-	// 	content: url('../../img/img-editorial.svg');
-	// }
+	background: $green1;
+	padding: 75px 0;
 	
 	.services-icon {
 		display: block;
@@ -282,16 +276,10 @@ header {
 	}
 
 	.service-wrap {
-		background: $blue3;
+		background: $green2;
 		padding: 140px 30px 30px;
 		color: #FFFFFF;
 		text-align: center;
-
-		// &:before {
-		// 	position: absolute;
-		// 	top: -35px;
-		// 	right: 35px;
-		// }
 
 		h2 {
 			font-size: 1.6rem;
@@ -310,13 +298,20 @@ header {
 		}
 
 		ul {
-			padding-left: 15px;
 			text-align: left;
-			margin-left: 25px;
 			margin-bottom: 30px;
 
 			li {
-				margin-bottom: 10px;
+				padding: 15px 0 15px 15px;
+				border-top: 1px solid #709380;
+				list-style: none;
+				position: relative;
+
+				&:before {
+					content: "●";
+					left: 0;
+					position: absolute;
+				}
 			}
 		}
 	}
@@ -339,9 +334,8 @@ header {
 	padding: 75px 0;
 
 	h2 {
-		color: $darkGray;
-		text-transform: uppercase;
-		margin-bottom: 60px;
+		color: $blue4;
+		margin-bottom: 45px;
 	}
 
 	.gridWorks {
@@ -385,14 +379,51 @@ header {
 	}
 }
 
+// Logos...
+.logos {
+	background: $beige url("../../img/ambientes.svg") no-repeat scroll center bottom / contain;
+    height: 700px;
+    padding: 75px 0;
+    text-align: center;
+
+	h2 {
+		color: $blue4;
+		margin-bottom: 1.4rem;
+	}
+
+	h4 {
+		color: $blue4;
+		font-size: 1.4rem;
+		font-weight: 400;
+		line-height: 1.8rem;
+
+		strong {
+			font-weight: 500;
+		}
+	}
+
+	.logos-wrap {
+		margin-top: 50px;
+		display: inline-block;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
 // Testimonials...
 
 .testimonials {
 	padding: 75px 0;
+	background: url("../../img/ambientes-sombra.svg") transparent no-repeat scroll center top / contain ;
+
+	h2 {
+		margin-bottom: 1.4rem;
+	}
 
 	.slick-slider {
 		margin: 0 auto;
-		width: 70%;
 		min-height: 300px;
 
 		.slick-arrow {
@@ -401,25 +432,26 @@ header {
 			-ms-transition: all 0.4s ease;
 			-o-transition: all 0.4s ease;
 			transition: all 0.4s ease;
-			color: $darkGray;
+			// color: $darkGray;
+			color: #E9B400;
 		    cursor: pointer;
-		    font-size: 40px;
+		    font-size: 90px;
 		    padding: 10px;
 		    position: absolute;
-		    top: 30%;
-		    opacity: 0.4;
+		    top: 10%;
+		    opacity: 1;
 
 
 		    &:hover {
-		    	opacity: 1;
+		    	opacity: 0.4;
 		    }
 		}
 
 		.slick-prev {
-			left: -50px;
+			left: -140px;
 		}
 		.slick-next {
-			right: -50px;
+			right: -140px;
 			left: auto;
 		}
 
@@ -438,7 +470,6 @@ header {
 				  content: open-quote;
 				  font-size: 4em;
 				  line-height: 0.1em;
-				  // margin-right: 0.25em;
 				  vertical-align: -0.4em;
 				}
 

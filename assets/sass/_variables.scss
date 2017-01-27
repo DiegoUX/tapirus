@@ -1,15 +1,23 @@
 // Colors...
 $yellow: #FFCC00;
 
-$blue1: #2A4D59;
-$blue2: #315565;
-$blue3: #345760;
-$blue4: #456A77;
+$blue1: #15272E;
+$blue2: #1F3942;
+$blue3: #2A4D59;
+$blue4: #315565;
+$blue5: #3C6F80;
+$blue6: #4D8EA3;
+$blue7: #B5DDEB;
 
 $gray: #636363;
 $darkGray: #4C4C4C;
 
 $darkRed: #B75023;
+
+$green1: #31594A;
+$green2: #467563;
+
+$beige: #EFF0DF;
 
 $red: #CC6666;
 $blue: #008DA5;
@@ -51,3 +59,7 @@ h2 {
 		border: 2px solid #ffffff;
 	}
 }
+
+// Helpers...
+
+.tac { text-align: center; }
