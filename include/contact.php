@@ -1,46 +1,52 @@
 <?php
+    // Added input sanitizing to prevent injection
 
-// configure
-$from = 'Contacto Web Tapirus <web@tapirus.com.ar>';
-$sendTo = 'Hola Tapirus <hola@tapirus.com.ar>';
-$subject = 'Nuevo mensaje enviado desde el formulario de contacto de http://tapirus.com.ar';
-$fields = array('name' => 'Nombre', 'email' => 'Email', 'message' => 'Mensaje'); // array variable name => Text to appear in the email
-$okMessage = 'Tu mensaje fue enviado con éxito. Muchas Gracias, te responderemos a la brevedad!.';
-$errorMessage = 'Te pedimos disculpas. Ocurrió un error al enviar tu mensaje. Por favor intentá nuevamente.';
+    // Only process POST reqeusts.
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Get the form fields and remove whitespace.
+        $name = strip_tags(trim($_POST["formName"]));
+		$name = str_replace(array("\r","\n"),array(" "," "),$name);
+        $email = filter_var(trim($_POST["formEmail"]), FILTER_SANITIZE_EMAIL);
+        $message = trim($_POST["formMessage"]);
 
-// let's do the sending
-
-try
-{
-    $emailText = "Tienes un nuevo mensaje enviado desde el formulario de contacto de http://tapirus.com.ar";
-
-    foreach ($_POST as $key => $value) {
-
-        if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value \r\n";
+        // Check that data was sent to the mailer.
+        if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            // Set a 400 (bad request) response code and exit.
+            http_response_code(400);
+            echo "Oops! Ocurrió un error al enviar tu mensaje. Por favor completá el formulario e intentá nuevamente.";
+            exit;
         }
+
+        // Set the recipient email address.
+        // FIXME: Update this to your desired email address.
+        $recipient = "hola@tapirus.com.ar";
+
+        // Set the email subject.
+        $subject = "Nuevo mensaje enviado desde Tapirus.";
+        
+        // Build the email content.
+        $email_content = "Nombre: $name\n";
+        $email_content .= "Email: $email\n\n";
+        $email_content .= "Mensaje:\n$message\n";
+
+        // Build the email headers.
+        $email_headers = "From: Contacto Web Tapirus <hola@tapirus.com.ar>";
+
+        // Send the email.
+        if (mail($recipient, $subject, $email_content, $email_headers)) {
+            // Set a 200 (okay) response code.
+            http_response_code(200);
+            echo "Tu mensaje fue enviado con éxito. Muchas Gracias, te responderemos a la brevedad!.";
+        } else {
+            // Set a 500 (internal server error) response code.
+            http_response_code(500);
+            echo "Oops! Te pedimos disculpas. Ocurrió un error al enviar tu mensaje. Por favor intentá nuevamente.";
+        }
+
+    } else {
+        // Not a POST request, set a 403 (forbidden) response code.
+        http_response_code(403);
+        echo "Te pedimos disculpas. Ocurrió un error al enviar tu mensaje. Por favor intentá nuevamente.";
     }
 
-    $headers = array('Content-Type: text/html; charset="UTF-8";',
-        'From: ' . $from,
-    );
-    
-    mail($sendTo, $subject, $emailText, implode("\r\n", $headers));
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
-}
-catch (\Exception $e)
-{
-    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
-}
-
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-}
-else {
-    echo $responseArray['message'];
-}
+?>

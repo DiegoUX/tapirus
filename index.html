@@ -221,14 +221,14 @@
                             <h2>Nos gustaría estar en contacto!</h2>
                         </div>
                         <div class="col-sm-5">
-                            <form id="contact-form" method="post" action="include/contact.php" role="form">
-                                <div class="messages"></div>
+                            <div id="form-messages"></div>
+                            <form id="contactForm" method="post" name="contactForm" action="include/contact.php" role="form">
                                 <div class="controls">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="form_name">Tu nombre *</label>
-                                                <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Por favor ingresá tu nombre.">
+                                                <label for="formName">Tu nombre *</label>
+                                                <input id="formName" type="text" name="formName" class="form-control" required="required" data-error="Por favor ingresá tu nombre.">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -236,8 +236,8 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="form_email">Tu email *</label>
-                                                <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Ingresá una dirección de email válida.">
+                                                <label for="formEmail">Tu email *</label>
+                                                <input id="formEmail" type="email" name="formEmail" class="form-control" required="required" data-error="Ingresá una dirección de email válida.">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -245,13 +245,13 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="form_message">¿En qué podemos ayudarte? *</label>
-                                                <textarea id="form_message" name="message" class="form-control" rows="6" required="required" data-error="Por favor ingresá un mensaje."></textarea>
+                                                <label for="formMessage">¿En qué podemos ayudarte? *</label>
+                                                <textarea id="formMessage" name="formMessage" class="form-control" rows="6" required="required" data-error="Por favor ingresá un mensaje."></textarea>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <input type="submit" class="btn btn-main" value="Enviar">
+                                            <input type="submit" class="btn btn-main" name="formSubmit" id="formSubmit" value="Enviar">
                                         </div>
                                     </div>
                                 </div>
@@ -308,7 +308,8 @@
         <script src="js/main.js"></script>
         
         <script src="js/contact/validator.js"></script>
-        <script src="js/contact/contact.js"></script>
+        <!-- <script src="js/contact/contact.js"></script> -->
+        <script src="js/contact/ajax-form.js"></script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
