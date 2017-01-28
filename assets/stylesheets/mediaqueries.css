@@ -50,4 +50,9 @@
     font-size: 16px;
     line-height: 1.7rem;
   }
+
+  /* line 56, ../sass/mediaqueries.scss */
+  footer {
+    background-image: none;
+  }
 }

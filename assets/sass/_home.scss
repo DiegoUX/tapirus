@@ -337,53 +337,12 @@ header {
 		color: $blue4;
 		margin-bottom: 45px;
 	}
-
-	.gridWorks {
-		margin-bottom: 30px;
-    	overflow: hidden;
-		
-		img {
-			width: 100%;
-		}
-
-		.workTitle {
-			font-size: 1rem;
-			color: $darkGray;
-			text-transform: uppercase;
-			margin-top: 10px;
-			display: inline-block;
-			margin-bottom: 5px;
-		}
-
-		ul {
-			padding: 0;
-
-			li {
-				display: inline-block;
-			    font-size: 12px;
-			    line-height: normal;
-			    padding: 2px 6px;
-			    color: #ffffff;
-			    margin-right: 3px;
-
-			    &:last-child { 
-			    	margin-right: 0;
-			    }	
-
-			    &.tagIdentidad { background: $red; }
-			    &.tagWeb { background: $blue; }
-			    &.tagEditorial { background: $violet; }
-
-			}
-		}
-	}
 }
 
 // Logos...
 .logos {
 	background: $beige url("../../img/ambientes.svg") no-repeat scroll center bottom / contain;
-    height: 700px;
-    padding: 75px 0;
+    padding: 75px 0 225px;
     text-align: center;
 
 	h2 {
@@ -403,7 +362,7 @@ header {
 	}
 
 	.logos-wrap {
-		margin-top: 50px;
+		margin-top: 60px;
 		display: inline-block;
 
 		img {
@@ -508,14 +467,137 @@ header {
 // Footer...
 
 footer {
-	background: #444;
-	padding: 75px 0;
+	background: url("../../img/mano-idea.svg") $blue2 no-repeat scroll right 265px;
+	padding: 75px 0 0 0;
+	color: $blue7;
+
+	h2 {
+		margin-bottom: 4rem;
+	}
 
 	.contact {
 		form {
 			label {
-				color: #ffffff;
+				font-weight: 400;
+			}
+
+			.form-control {
+				border: none;
+				box-shadow: none;
+				background-color: $blue3;
+				color: #FFFFFF;
+				border-radius: 3px;
+				-webkit-transition: all 0.4s ease;
+				-moz-transition: all 0.4s ease;
+				-ms-transition: all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
+
+				&:focus {
+				    background: $blue4 none repeat scroll 0 0 !important;
+				    outline: 0 none;
+				}
+			}
+
+			.btn-main {
+				margin-top: 15px;
+			}
+		}
+	}
+
+	.has-error .help-block, 
+	.has-error .control-label, 
+	.has-error .radio, 
+	.has-error .checkbox, 
+	.has-error .radio-inline, 
+	.has-error .checkbox-inline, 
+	.has-error.radio label, 
+	.has-error.checkbox label, 
+	.has-error.radio-inline label, 
+	.has-error.checkbox-inline label {
+		color: $darkRed;
+	}
+
+	.has-error .form-control {
+	    &:focus {
+	    	box-shadow: none !important;
+	    }
+	}
+
+	.social-foo {
+		padding-left: 60px;
+
+		ul {
+			li {
+				list-style: none;
+				display: inline-block;
+				margin-right: 14px;
+
+				.social-icon {
+					i {
+						font-size: 30px;
+						color: $blue7;
+						-webkit-transition: all 0.4s ease;
+						-moz-transition: all 0.4s ease;
+						-ms-transition: all 0.4s ease;
+						-o-transition: all 0.4s ease;
+						transition: all 0.4s ease;
+					}
+
+					&:hover {
+						i {
+							opacity: 0.7;
+						}	
+					}
+				}
+			}
+		}
+
+		.contact-info {
+			margin: 22px 0 47px 0;
+			img {
 				display: block;
+				margin-bottom: 15px;
+			}
+
+			a {
+				color: $blue7;
+				text-decoration: underline;
+				display: inline-block;
+				margin-bottom: 10px;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.phrase-section {
+		overflow: hidden;
+		margin-top: 12px;
+		h4 {
+			color: #EFEFEF;
+			font-style: italic;
+			text-align: center;
+			font-weight: 400;
+		}
+	}
+
+	.black-bottom {
+		background-color: $blue1;
+		margin-top: 75px;
+		color: #FFFFFF;
+		padding: 15px 0;
+
+		p {
+			font-size: 12px;
+			opacity: 0.8;
+			margin: 0;
+
+			.tcolor {
+				color: $yellow;
+				margin-left: 1px;
 			}
 		}
 	}

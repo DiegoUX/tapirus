@@ -217,46 +217,78 @@
             <div id="contact" class="contact">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <h3>Mantenernos en contacto es fácil!</h3>
-                            <p>Escribinos, contanos en que podemos ayudarte y te repondemos lo antes posible.</p>
+                        <div class="col-sm-12">
+                            <h2>Nos gustaría estar en contacto!</h2>
                         </div>
-                        <div class="col-lg-6">
-                            <div id="form-messages"></div>
-                            <form id="contactForm" class="relPosition" name="contactForm" action="include/mailer.php" method="post">
-                                <!-- <div class="container"> -->
-                                    <!-- <div class="row"> -->
-                                        <!-- <div class="col-lg-8"> -->
-                                            <div class="content-form">
-                                                <label for="formName">Dejanos tu nombre*</label>
-                                                <input type="text" id="formName" name="formName" placeholder="" required pattern="[a-zA-Z\s]"/>
-                                                <small class="error">Por favor ingresá tu nombre.</small>
+                        <div class="col-sm-5">
+                            <form id="contact-form" method="post" action="include/contact.php" role="form">
+                                <div class="messages"></div>
+                                <div class="controls">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_name">Tu nombre *</label>
+                                                <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Por favor ingresá tu nombre.">
+                                                <div class="help-block with-errors"></div>
                                             </div>
-
-                                            <div class="content-form">
-                                                <label for="formMail">Dejanos tu email*</label>
-                                                <input type="text" id="formMail" name="formMail" placeholder="" required pattern="email"/>
-                                                <small class="error">Debes ingresar una dirección de email válida.</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_email">Tu email *</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Ingresá una dirección de email válida.">
+                                                <div class="help-block with-errors"></div>
                                             </div>
-                                        
-                                            <div class="content-form textarea">
-                                                <label for="formMessage">En qué podemos ayudarte?*</label>
-                                                <textarea id="formMessage" name="formMessage" placeholder="" required></textarea>
-                                                <small class="error">Contanos en que podemos ayudarte.</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message">¿En qué podemos ayudarte? *</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="6" required="required" data-error="Por favor ingresá un mensaje."></textarea>
+                                                <div class="help-block with-errors"></div>
                                             </div>
-                                        <!-- </div> -->
-                                    <!-- </div> -->
-
-                                    <!-- <div class="row"> -->
-                                      <!-- <div class="col-lg-8"> -->
-                                        <button type="submit" name="formSubmit" id="formSubmit" class="button btnBlack right">Enviar</button>
-                                      <!-- </div> -->
-                                    <!-- </div> -->
-                                <!-- </div> -->
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn btn-main" value="Enviar">
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
-                        </div>    
+                        </div>
+                        <div class="col-sm-4 social-foo">
+                            
+                            <div class="contact-info">
+                                <img src="img/min-tapirus.svg" alt="Mini Logo Tapirus">
+                                <a href="mailto:'hola@tapirus.com.ar'">hola@tapirus.com.ar</a>
+                                <p>Córdoba · Argentina</p>
+                            </div>
+                            <p>SEGUINOS!</p>
+                            <ul>
+                                <li><a class="social-icon" target="_blank" href="https://facebook.com/TapirusEstudio"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                <li><a class="social-icon" target="_blank" href="https://www.instagram.com/tapirus_estudio/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="phrase-section">
+                                <h4>“Las mejores ideas surgen en espacios de colaboración”</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>        
+            </div>
+            <div class="black-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>Ⓒ Copyright · Tapirus 2017 · Todos los derechos reservados.</p>
+                        </div>
+                        <div class="col-sm-6 tar">
+                            <p>Este sitio es una creación de  <span class="tcolor">T a p i r u s</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
 
@@ -264,7 +296,6 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="assets/javascripts/bootstrap.min.js"></script>        
-        <script src="js/ajax-form.js"></script>
         <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
         
@@ -275,6 +306,9 @@
         <!-- Corousel plugins -->
         <script type="text/javascript" src="js/vendor/slick.min.js"></script>
         <script src="js/main.js"></script>
+        
+        <script src="js/contact/validator.js"></script>
+        <script src="js/contact/contact.js"></script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
