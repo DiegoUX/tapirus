@@ -77,100 +77,42 @@
             'items' :
             [
                 {
-                    'title'         : 'Identidad visual para Áreas Protegidas de Tucumán',
+                    'title'         : 'Identidad visual y cartelería para Áreas Protegidas de Tucumán',
                     'description'   : ' Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
-                    'thumbnail'     : ['img/porfolio/areas-protegidas/min-ap-1.jpg', 'img/porfolio/areas-protegidas/min-ap-2.jpg', 'img/porfolio/areas-protegidas/min-ap-3.jpg', 'img/porfolio/areas-protegidas/min-ap-4.jpg'],
-                    'large'         : ['img/porfolio/areas-protegidas/ap-1.jpg', 'img/porfolio/areas-protegidas/ap-2.jpg', 'img/porfolio/areas-protegidas/ap-3.jpg', 'img/porfolio/areas-protegidas/ap-4.jpg'],
+                    'thumbnail'     : ['img/porfolio/areas-protegidas/min-ap-0.jpg', 'img/porfolio/areas-protegidas/min-ap-1.jpg', 'img/porfolio/areas-protegidas/min-ap-2.jpg', 'img/porfolio/areas-protegidas/min-ap-3.jpg', 'img/porfolio/areas-protegidas/min-ap-4.jpg', 'img/porfolio/areas-protegidas/min-ap-5.jpg', 'img/porfolio/areas-protegidas/min-ap-6.jpg'],
+                    'large'         : ['img/porfolio/areas-protegidas/ap-0.jpg', 'img/porfolio/areas-protegidas/ap-1.jpg', 'img/porfolio/areas-protegidas/ap-2.jpg', 'img/porfolio/areas-protegidas/ap-3.jpg', 'img/porfolio/areas-protegidas/ap-4.jpg', 'img/porfolio/areas-protegidas/ap-5.jpg', 'img/porfolio/areas-protegidas/ap-6.jpg'],
                     'button_list'   :
                     [
-                        // { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        // { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
+                        // { 'title':'', 'url' : '' },
+                        // { 'title':'', 'url':''}
                     ],
                     'tags'          : ['']
                 },
                 {
                     'title'         : 'Identidad Visual del Parque Percy Hill',
                     'description'   : 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
-                    'thumbnail'     : ['img/porfolio/percy-hill/min-ph-1.jpg', 'img/porfolio/percy-hill/min-ph-2.jpg', 'img/porfolio/percy-hill/min-ph-3.jpg'],
-                    'large'         : ['img/porfolio/percy-hill/ph-1.jpg', 'img/porfolio/percy-hill/ph-2.jpg', 'img/porfolio/percy-hill/ph-3.jpg'],
-                    'button_list'   :
-                    [
-                        // { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        // { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
+                    'thumbnail'     : ['img/porfolio/percy-hill/min-ph-1.jpg', 'img/porfolio/percy-hill/min-ph-2.jpg', 'img/porfolio/percy-hill/min-ph-3.jpg', 'img/porfolio/percy-hill/min-ph-4.jpg', 'img/porfolio/percy-hill/min-ph-5.jpg'],
+                    'large'         : ['img/porfolio/percy-hill/ph-1.jpg', 'img/porfolio/percy-hill/ph-2.jpg', 'img/porfolio/percy-hill/ph-3.jpg', 'img/porfolio/percy-hill/ph-4.jpg', 'img/porfolio/percy-hill/ph-5.jpg'],
+                    'button_list'   : [],
                     'tags'          : ['']
                 },
                 {
-                    'title'         : 'Title #3',
-                    'description'   : 'Description text here',
-                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
-                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
+                    'title'         : 'Identidad Visual para Bosque Modelo Tucumán',
+                    'description'   : 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
+                    'thumbnail'     : ['img/porfolio/bosque-modelo/min-bm-1.jpg', 'img/porfolio/bosque-modelo/min-bm-2.jpg', 'img/porfolio/bosque-modelo/min-bm-2.jpg'],
+                    'large'         : ['img/porfolio/bosque-modelo/bm-1.jpg', 'img/porfolio/bosque-modelo/bm-2.jpg', 'img/porfolio/bosque-modelo/bm-2.jpg'],
+                    'button_list'   : [],
                     'tags'          : ['']
                 },
                 {
-                    'title'         : 'Title #4',
-                    'description'   : 'Description text here',
-                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
-                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'], 
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
+                    'title'         : 'Identidad Visual para Caspinchango',
+                    'description'   : 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
+                    'thumbnail'     : ['img/porfolio/caspinchango/min-cch-1.jpg', 'img/porfolio/caspinchango/min-cch-2.jpg', 'img/porfolio/caspinchango/min-cch-4.jpg'],
+                    'large'         : ['img/porfolio/caspinchango/cch-1.jpg', 'img/porfolio/caspinchango/cch-2.jpg', 'img/porfolio/caspinchango/cch-4.jpg'],
+                    'button_list'   : [],
                     'tags'          : ['']
                 },
-                {
-                    'title'         : 'Title #5',
-                    'description'   : 'Description text here',
-                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
-                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
-                    'tags'          : ['']
-                },
-                {
-                    'title'         : 'Title #6',
-                    'description'   : 'Description text here',
-                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
-                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
-                    'tags'          : ['']
-                },
-                {
-                    'title'         : 'Title #7',
-                    'description'   : 'Description text here',
-                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
-                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
-                    'tags'          : ['']
-                },{
-                    'title'         : 'Title #8',
-                    'description'   : 'Description text here',
-                    'thumbnail'     : ['http://placehold.it/277x277', 'http://placehold.it/277x277', 'http://placehold.it/277x277'],
-                    'large'         : ['http://placehold.it/800x600', 'http://placehold.it/800x600', 'http://placehold.it/800x600'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://bonchen.net/' },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/'}
-                    ],
-                    'tags'          : ['']
-                }
+                
             ]
         });
         

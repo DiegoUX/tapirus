@@ -36,7 +36,7 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Tu mensaje fue enviado con éxito. Muchas Gracias, te responderemos a la brevedad!.";
+            echo "Muchas Gracias!. Tu mensaje fue enviado con éxito, te responderemos a la brevedad.";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);

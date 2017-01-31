@@ -8852,7 +8852,7 @@ body {
 
 /* line 13, ../sass/_home.scss */
 header.minify nav {
-  background: #315565;
+  background: #2A4D59;
 }
 /* line 17, ../sass/_home.scss */
 header.minify nav .navbar-header .navbar-brand {
@@ -9112,54 +9112,86 @@ header .navbar .menu .social-icon:hover i {
   color: #315565;
   margin-bottom: 45px;
 }
+/* line 342, ../sass/_home.scss */
+.ourWork #elastic_grid .og-grid li a figure {
+  background: #315565;
+}
+/* line 345, ../sass/_home.scss */
+.ourWork #elastic_grid .og-grid li a figure span {
+  margin-top: 0;
+  border-bottom: none;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 358, ../sass/_home.scss */
+.ourWork #elastic_grid .og-expanded .og-pointer {
+  margin-top: -10px;
+}
+/* line 372, ../sass/_home.scss */
+.ourWork #elastic_grid .og-expanded .og-expander .og-expander-inner .og-fullimg img {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.65);
+}
+/* line 380, ../sass/_home.scss */
+.ourWork #elastic_grid .og-expanded .og-expander .og-expander-inner .og-details .infosep {
+  display: none;
+}
+/* line 384, ../sass/_home.scss */
+.ourWork #elastic_grid .og-expanded .og-expander .og-expander-inner .og-details .elastislide-wrapper {
+  box-shadow: none;
+  margin-top: 30px;
+}
 
-/* line 343, ../sass/_home.scss */
+/* line 396, ../sass/_home.scss */
 .logos {
   background: #EFF0DF url("../../img/ambientes.svg") no-repeat scroll center bottom/contain;
   padding: 75px 0 225px;
   text-align: center;
 }
-/* line 348, ../sass/_home.scss */
+/* line 401, ../sass/_home.scss */
 .logos h2 {
   color: #315565;
   margin-bottom: 1.4rem;
 }
-/* line 353, ../sass/_home.scss */
+/* line 406, ../sass/_home.scss */
 .logos h4 {
   color: #315565;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.8rem;
 }
-/* line 359, ../sass/_home.scss */
+/* line 412, ../sass/_home.scss */
 .logos h4 strong {
   font-weight: 500;
 }
-/* line 364, ../sass/_home.scss */
+/* line 417, ../sass/_home.scss */
 .logos .logos-wrap {
   margin-top: 60px;
   display: inline-block;
 }
-/* line 368, ../sass/_home.scss */
+/* line 421, ../sass/_home.scss */
 .logos .logos-wrap img {
   width: 100%;
 }
 
-/* line 376, ../sass/_home.scss */
+/* line 429, ../sass/_home.scss */
 .testimonials {
   padding: 75px 0;
   background: url("../../img/ambientes-sombra.svg") transparent no-repeat scroll center top/contain;
 }
-/* line 380, ../sass/_home.scss */
+/* line 433, ../sass/_home.scss */
 .testimonials h2 {
   margin-bottom: 1.4rem;
 }
-/* line 384, ../sass/_home.scss */
+/* line 437, ../sass/_home.scss */
 .testimonials .slick-slider {
   margin: 0 auto;
   min-height: 300px;
 }
-/* line 388, ../sass/_home.scss */
+/* line 441, ../sass/_home.scss */
 .testimonials .slick-slider .slick-arrow {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -9174,20 +9206,20 @@ header .navbar .menu .social-icon:hover i {
   top: 10%;
   opacity: 1;
 }
-/* line 404, ../sass/_home.scss */
+/* line 457, ../sass/_home.scss */
 .testimonials .slick-slider .slick-arrow:hover {
   opacity: 0.4;
 }
-/* line 409, ../sass/_home.scss */
+/* line 462, ../sass/_home.scss */
 .testimonials .slick-slider .slick-prev {
   left: -140px;
 }
-/* line 412, ../sass/_home.scss */
+/* line 465, ../sass/_home.scss */
 .testimonials .slick-slider .slick-next {
   right: -140px;
   left: auto;
 }
-/* line 420, ../sass/_home.scss */
+/* line 473, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -9196,57 +9228,57 @@ header .navbar .menu .social-icon:hover i {
   text-align: center;
   font-style: italic;
 }
-/* line 428, ../sass/_home.scss */
+/* line 481, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote:before {
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
   vertical-align: -0.4em;
 }
-/* line 435, ../sass/_home.scss */
+/* line 488, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote p {
   display: inline;
 }
-/* line 439, ../sass/_home.scss */
+/* line 492, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote hr {
   width: 50%;
   margin: 30px auto;
   border-color: #4C4C4C;
 }
-/* line 445, ../sass/_home.scss */
+/* line 498, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote span {
   font-style: normal;
   font-weight: 500;
   display: block;
   text-align: center;
 }
-/* line 452, ../sass/_home.scss */
+/* line 505, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote small {
   text-align: center;
   font-style: normal;
   color: #4C4C4C;
   font-size: 12px;
 }
-/* line 458, ../sass/_home.scss */
+/* line 511, ../sass/_home.scss */
 .testimonials .slick-slider .slick-slide blockquote small:before {
   content: "";
 }
 
-/* line 469, ../sass/_home.scss */
+/* line 522, ../sass/_home.scss */
 footer {
   background: url("../../img/mano-idea.svg") #1F3942 no-repeat scroll right 265px;
   padding: 75px 0 0 0;
   color: #B5DDEB;
 }
-/* line 474, ../sass/_home.scss */
+/* line 527, ../sass/_home.scss */
 footer h2 {
   margin-bottom: 4rem;
 }
-/* line 480, ../sass/_home.scss */
+/* line 533, ../sass/_home.scss */
 footer .contact form label {
   font-weight: 400;
 }
-/* line 484, ../sass/_home.scss */
+/* line 537, ../sass/_home.scss */
 footer .contact form .form-control {
   border: none;
   box-shadow: none;
@@ -9259,16 +9291,16 @@ footer .contact form .form-control {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 496, ../sass/_home.scss */
+/* line 549, ../sass/_home.scss */
 footer .contact form .form-control:focus {
   background: #315565 none repeat scroll 0 0 !important;
   outline: 0 none;
 }
-/* line 502, ../sass/_home.scss */
+/* line 555, ../sass/_home.scss */
 footer .contact form .btn-main {
   margin-top: 15px;
 }
-/* line 508, ../sass/_home.scss */
+/* line 561, ../sass/_home.scss */
 footer .has-error .help-block,
 footer .has-error .control-label,
 footer .has-error .radio,
@@ -9281,21 +9313,39 @@ footer .has-error.radio-inline label,
 footer .has-error.checkbox-inline label {
   color: #B75023;
 }
-/* line 522, ../sass/_home.scss */
+/* line 575, ../sass/_home.scss */
 footer .has-error .form-control:focus {
   box-shadow: none !important;
 }
-/* line 527, ../sass/_home.scss */
+/* line 580, ../sass/_home.scss */
+footer .successMsg {
+  background: #dff0d8 none repeat scroll 0 0;
+  border-color: #d0e9c6;
+  border-radius: 5px;
+  color: #3c763d;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+/* line 589, ../sass/_home.scss */
+footer .errorMsg {
+  background: #f2dede none repeat scroll 0 0;
+  border-color: #ebcccc;
+  border-radius: 5px;
+  color: #a94442;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+/* line 598, ../sass/_home.scss */
 footer .social-foo {
   padding-left: 60px;
 }
-/* line 531, ../sass/_home.scss */
+/* line 602, ../sass/_home.scss */
 footer .social-foo ul li {
   list-style: none;
   display: inline-block;
   margin-right: 14px;
 }
-/* line 537, ../sass/_home.scss */
+/* line 608, ../sass/_home.scss */
 footer .social-foo ul li .social-icon i {
   font-size: 30px;
   color: #B5DDEB;
@@ -9305,56 +9355,56 @@ footer .social-foo ul li .social-icon i {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 548, ../sass/_home.scss */
+/* line 619, ../sass/_home.scss */
 footer .social-foo ul li .social-icon:hover i {
   opacity: 0.7;
 }
-/* line 556, ../sass/_home.scss */
+/* line 627, ../sass/_home.scss */
 footer .social-foo .contact-info {
   margin: 22px 0 47px 0;
 }
-/* line 558, ../sass/_home.scss */
+/* line 629, ../sass/_home.scss */
 footer .social-foo .contact-info img {
   display: block;
   margin-bottom: 15px;
 }
-/* line 563, ../sass/_home.scss */
+/* line 634, ../sass/_home.scss */
 footer .social-foo .contact-info a {
   color: #B5DDEB;
   text-decoration: underline;
   display: inline-block;
   margin-bottom: 10px;
 }
-/* line 569, ../sass/_home.scss */
+/* line 640, ../sass/_home.scss */
 footer .social-foo .contact-info a:hover {
   text-decoration: none;
 }
-/* line 576, ../sass/_home.scss */
+/* line 647, ../sass/_home.scss */
 footer .phrase-section {
   overflow: hidden;
   margin-top: 12px;
 }
-/* line 579, ../sass/_home.scss */
+/* line 650, ../sass/_home.scss */
 footer .phrase-section h4 {
   color: #EFEFEF;
   font-style: italic;
   text-align: center;
   font-weight: 400;
 }
-/* line 587, ../sass/_home.scss */
+/* line 658, ../sass/_home.scss */
 footer .black-bottom {
   background-color: #15272E;
   margin-top: 75px;
   color: #FFFFFF;
   padding: 15px 0;
 }
-/* line 593, ../sass/_home.scss */
+/* line 664, ../sass/_home.scss */
 footer .black-bottom p {
   font-size: 12px;
   opacity: 0.8;
   margin: 0;
 }
-/* line 598, ../sass/_home.scss */
+/* line 669, ../sass/_home.scss */
 footer .black-bottom p .tcolor {
   color: #FFCC00;
   margin-left: 1px;

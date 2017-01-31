@@ -12,7 +12,7 @@ body {
 
 header.minify nav {
 	// background: rgba(76,76,76,0.75);
-	background: $blue4;
+	background: $blue3;
 
 	.navbar-header .navbar-brand {
 		width: 90px;
@@ -337,6 +337,59 @@ header {
 		color: $blue4;
 		margin-bottom: 45px;
 	}
+
+	#elastic_grid {
+		.og-grid li a figure {
+			background: $blue4;
+
+			span {
+				margin-top: 0;
+				border-bottom: none;
+				text-align: center;
+			    position: relative;
+			    top: 50%;
+			    -ms-transform: translateY(-50%);
+			    -webkit-transform: translateY(-50%);
+			    transform: translateY(-50%);
+			}
+		}
+
+		.og-expanded {
+			.og-pointer {
+				margin-top: -10px;
+			}
+			
+			.og-expander {
+				// h3 {
+				// 	font-size: 28px;
+				// }
+
+				.og-expander-inner {
+
+					.og-fullimg {
+						// width: 70%;
+
+						img {
+							box-shadow: 0 5px 35px rgba(0,0,0,.65);
+						}
+					}
+
+					.og-details {
+						// width: 30%;
+
+						.infosep {
+							display: none;
+						}
+
+						.elastislide-wrapper {
+							box-shadow: none;
+							margin-top: 30px;
+						}
+					}
+				}
+			}	
+		}
+	}
 }
 
 // Logos...
@@ -522,6 +575,24 @@ footer {
 	    &:focus {
 	    	box-shadow: none !important;
 	    }
+	}
+
+	.successMsg {
+		background: #dff0d8 none repeat scroll 0 0;
+	    border-color: #d0e9c6;
+	    border-radius: 5px;
+	    color: #3c763d;
+	    margin-bottom: 30px;
+	    padding: 15px;
+	}
+
+	.errorMsg {
+	    background: #f2dede none repeat scroll 0 0;
+	    border-color: #ebcccc;
+	    border-radius: 5px;
+	    color: #a94442;
+	    margin-bottom: 30px;
+	    padding: 15px;
 	}
 
 	.social-foo {
