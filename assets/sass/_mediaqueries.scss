@@ -1,0 +1,175 @@
+@media only screen and (max-width: 992px) {
+    .hero {
+		.main-img {
+			text-align: center;
+			margin-top: 110px;
+		}
+
+    	.main-mse {
+    		margin-top: 130px;
+
+    		&:before {
+		    	border-left: 95px solid transparent;
+    			border-right: 0 solid transparent;
+    			border-top: 95px solid $blue5;
+			    margin: 355px 235px 0;
+			}
+    	}
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.mobile-only {
+		background: $blue4;
+
+		.social-icon {
+			i {
+				color: $blue7;
+			    font-size: 30px;
+			    margin-left: 10px;
+			    margin-top: 10px;
+
+			    &:hover {
+			    	opacity: 0.7;
+			    }
+			}
+		}
+	}
+
+	.navbar-brand {
+		background: $yellow;
+		margin-left: 0px;
+	    padding: 10px 8px 8px 10px;
+	    width: 80px;
+	    height: 75px;
+
+		h1 {
+			font-size: 1rem;
+		}
+	}
+
+	.hero {
+		h1 {
+			display: none;
+		}
+
+		.main-mse {
+			box-shadow: none;
+			padding: 40px 30px;
+			margin-top: 40px;
+
+			&:before {
+				// margin: 330px 68px 0;
+				display: none;
+			}
+
+			h2 {
+				font-size: 2.5rem;
+			}
+
+			h4 {
+				font-size: 16px;
+				line-height: 1.7rem;
+			}
+		}
+
+		.main-img {
+			margin-top: 60px;
+		}
+	}
+
+	.services {
+		.colm {
+			margin-top: 40px;
+		}
+	}
+
+	.ourWork {
+		#elastic_grid .og-expanded {
+			.og-expander {
+				// height: auto !important;
+
+				h3 {
+					font-size: 20px;
+					margin: 10px 0;
+				}
+
+				.og-expander-inner {
+					.og-close {
+						// background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		background-image: none;
+
+		.social-foo {
+			padding-left: 15px;
+			text-align: center;
+			margin-top: 50px;
+
+			.contact-info {
+				img {
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+
+			.social-p {
+				font-size: 16px;
+			}
+
+			ul {
+				li {
+					&:last-child {
+						margin-right: 0;
+					}
+
+					.social-icon {
+						i {
+							font-size: 40px;
+						}
+					}
+				}
+			}
+		}
+
+		.phrase-section {
+			margin-top: 40px;
+		}
+
+		.black-bottom {
+			margin-top: 40px;
+			text-align: center;
+
+			.tar {
+				text-align: center;
+				margin-top: 25px;
+				color: $blue7;
+			}
+		}
+	}
+}
+
+// @media only screen and (max-width: 640px) {
+// 	.ourWork {
+// 		#elastic_grid {
+// 			.og-expanded {
+// 				.og-expander {
+// 					.og-expander-inner {
+// 						.og-details {
+// 							.elastislide-wrapper {
+// 								position: relative;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}				
+// 	}
+// }
+
+

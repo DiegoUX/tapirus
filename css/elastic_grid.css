@@ -144,7 +144,7 @@
 
 .og-fullimg,
 .og-details {
-	width: 50%;
+	/*width: 50%;*/ /*custom*/
 	float: left;
 	height: 100%;
 	overflow: hidden;
@@ -159,10 +159,12 @@
 
 .og-details {
 	padding: 0 20px;
+	width: 40%; /*custom*/
 }
 
 .og-fullimg {
 	text-align: center;
+	width: 60%; /*custom*/
 }
 
 .og-fullimg img {
@@ -173,7 +175,8 @@
 
 .og-details h3 {
 	font-weight: 300;
-	font-size: 36px;
+	/*font-size: 36px;*/ 
+	font-size: 28px; /*custom*/
 	/*padding: 0px 0 10px;*/
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -361,7 +364,8 @@
 }
 
 .elastislide-wrapper {
-	position: relative;
+	position: absolute; /*custom*/
+	bottom: 0; /*custom*/
 	background-color: #313131;
 	margin: 0 auto;
 	min-height: 60px;
@@ -372,7 +376,7 @@
 }
 
 .elastislide-wrapper.elastislide-loading {
-	background-image: url(../images/loading.gif);
+	background-image: url(../img/loading.gif);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -853,12 +857,18 @@ nav#porfolio-nav li:last-child a {
 }
 
 @media (min-width: 1200px) {
-	.og-expander h3 { font-size: 35px; }
-	.og-expander p { font-size: 13px; }
+	#elastic_grid .og-expanded .og-expander .og-expander-inner .og-details .elastislide-wrapper {
+		position: absolute;
+		bottom: 0;
+	}
+	/*.og-expander h3 { font-size: 35px; }*/ /*custom*/
+	.og-expander h3 { font-size: 28px; } /*custom*/
+	/*.og-expander p { font-size: 13px; }*/
+	.og-expander p { font-size: 16px; } /*custom*/
 	.og-expander a { font-size: 12px; }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 979px) {	
 	.og-expander h3 { font-size: 32px; }
 	.og-expander p { font-size: 12px; }
 	.og-expander a { font-size: 11px; }
@@ -867,6 +877,15 @@ nav#porfolio-nav li:last-child a {
 }
 
 @media (max-width: 767px) {
+	#elastic_grid .og-expanded .og-expander {
+		height: 800px !important; /*custom*/
+	}
+	#elastic_grid .all.og-expanded {
+		height: 1087px !important; /*custom*/
+	}
+	#elastic_grid .og-expanded .og-expander .og-expander-inner .og-details .elastislide-wrapper {
+		position: relative; /*custom*/
+	}
 	.og-expander h3 { font-size: 20px; }
 	.og-expander p { font-size: 12px; }
 	.og-expander a { font-size: 11px; }
